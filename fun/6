@@ -1,0 +1,2 @@
+  intros pqr pq p,
+  exact pqr(p)(pq(p)),

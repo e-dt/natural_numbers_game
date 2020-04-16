@@ -1,0 +1,3 @@
+  induction b,
+  repeat {rw mul_zero}, repeat {rw add_zero},
+  rw add_succ, rw mul_succ, rw b_ih, rw mul_succ, simp,

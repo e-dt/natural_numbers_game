@@ -1,0 +1,6 @@
+split,
+exact eq_zero_or_eq_zero_of_mul_eq_zero _ _,
+intro aorbis0,
+cases aorbis0 with a0 b0,
+rw a0, rw zero_mul, refl,
+rw b0, rw mul_zero, refl,

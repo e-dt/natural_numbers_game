@@ -1,0 +1,4 @@
+  intro aba,
+  induction a,
+  simp at aba, exact aba,
+  rw succ_add at aba, have anba := succ_inj aba, exact a_ih(anba),

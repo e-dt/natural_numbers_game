@@ -1,0 +1,3 @@
+induction b,
+repeat {rw add_zero},
+repeat {rw add_succ}, rw b_ih, refl,

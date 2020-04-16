@@ -1,0 +1,5 @@
+  intros ane0 bne0,
+  cases b,
+  rw mul_zero, exact bne0,
+  rw mul_succ, intro eq, have f := add_left_eq_zero eq,
+  exact ane0(f),

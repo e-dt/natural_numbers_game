@@ -1,0 +1,3 @@
+  intro sasb, cases sasb, use sasb_w,
+  rw succ_add at sasb_h, apply succ_inj,
+  exact sasb_h,

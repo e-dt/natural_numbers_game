@@ -1,0 +1,1 @@
+ intro no, exfalso, cases no with v f, exact f(v),

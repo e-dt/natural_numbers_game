@@ -1,0 +1,1 @@
+  cases h, use h_w, rw succ_add, exact succ_eq_succ_of_eq(h_h),

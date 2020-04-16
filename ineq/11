@@ -1,0 +1,6 @@
+  intros aleqb t, cases aleqb, use aleqb_w, 
+  rw add_assoc, rw add_comm t, rw ← add_assoc,
+  have back := add_right_cancel_iff t b (a+aleqb_w),
+  cases back,
+  apply back_mpr,
+  exact aleqb_h,

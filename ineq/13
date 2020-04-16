@@ -1,0 +1,8 @@
+  intro tof,
+  cases tof,
+  rw ← add_one_eq_succ at tof_h,
+  rw add_assoc at tof_h, symmetry at tof_h,
+  have cont := eq_zero_of_add_right_eq_self _ _ tof_h,
+  rw one_eq_succ_zero at cont,
+  have cont2 := add_right_eq_zero cont,
+  exact succ_ne_zero 0 cont2,

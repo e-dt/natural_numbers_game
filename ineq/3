@@ -1,0 +1,2 @@
+  intro hyp, cases hyp with c hc, use succ c, rw add_succ,
+  apply succ_eq_succ_of_eq, exact hc,

@@ -1,0 +1,5 @@
+  intro anb,
+  cases anb with aleb nonblea, cases aleb, cases aleb_w,
+  exfalso, apply nonblea,
+  rw add_zero at aleb_h, rw aleb_h, refl,
+  use aleb_w, rw succ_add, rw add_succ at aleb_h, exact aleb_h,

@@ -1,0 +1,5 @@
+  cases h, use (h_w), 
+  have back := add_right_cancel_iff t b (a + h_w), cases back,
+  rw add_assoc, rw add_comm, rw add_comm t, -- bookkeeping
+  apply back_mpr,
+  exact h_h,

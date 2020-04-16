@@ -1,0 +1,3 @@
+  induction b,
+  rw mul_zero, rw zero_mul, refl,
+  rw mul_succ, rw succ_mul, rw b_ih, refl,

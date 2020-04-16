@@ -1,0 +1,3 @@
+  induction m,
+  rw pow_zero, refl,
+  rw pow_succ, rw m_ih, rw one_mul, refl,

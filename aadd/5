@@ -1,0 +1,3 @@
+intro h,
+induction t, repeat {rw add_zero at h}, exact h,
+repeat {rw add_succ at h}, have h2 := succ_inj (h), exact t_ih(h2),

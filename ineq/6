@@ -1,0 +1,5 @@
+  cases hab, cases hba, rw hab_h at hba_h, symmetry at hab_h,
+  symmetry at hba_h, simp at hba_h,
+  have h2_0 := eq_zero_of_add_right_eq_self _ _ hba_h,
+  have h0 := add_right_eq_zero h2_0,
+  rw h0 at hab_h, rw add_zero at hab_h, exact hab_h,

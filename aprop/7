@@ -1,0 +1,2 @@
+  intro porq, cases porq with p q,
+  right, exact p, left, exact q,

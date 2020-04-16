@@ -1,0 +1,3 @@
+  induction n,
+  rw add_zero, rw pow_zero, rw mul_one, refl,
+  rw add_succ, repeat {rw pow_succ}, rw n_ih, simp,

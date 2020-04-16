@@ -1,0 +1,3 @@
+  by_cases p: P, by_cases q: Q, intros _ _, exact q,
+  intros nqnp p, have np := nqnp(q), exfalso, have f:=np(p),
+  exact f, intros _ ap, exfalso, exact p(ap),

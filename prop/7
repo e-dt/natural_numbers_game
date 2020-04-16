@@ -1,0 +1,1 @@
+  intro pq, intro qr, intro p, apply qr, apply pq, exact p,

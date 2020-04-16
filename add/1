@@ -1,0 +1,3 @@
+induction n, 
+rw add_zero, refl,
+rw add_succ, rw n_ih, refl,

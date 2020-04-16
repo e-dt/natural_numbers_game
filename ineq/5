@@ -1,0 +1,2 @@
+  cases hab with bma hb, cases hbc with cmb hc, rw hb at hc,
+  simp at hc, use (bma + cmb), exact hc,                                  

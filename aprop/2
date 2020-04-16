@@ -1,0 +1,2 @@
+  intro pq,
+  cases pq with p q, split, exact q, exact p,

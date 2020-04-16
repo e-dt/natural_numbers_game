@@ -1,0 +1,3 @@
+  induction n,
+  exact zero_ne_succ 0,
+  intro f, have f1 := succ_inj(f), exact n_ih(f1),
