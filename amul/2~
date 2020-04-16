@@ -1,7 +1,0 @@
-  cases b,
-  right, refl,
-  left,
-  cases a,
-  refl,
-  rw mul_succ at h, rw add_succ at h, exfalso,
-  exact succ_ne_zero _ h,
